@@ -10,4 +10,5 @@ add_subdirectory(src)
 add_executable(guess-number-game main.cpp)
 target_link_libraries(guess-number-game PRIVATE guess-number)
 
+enable_testing()
 add_subdirectory(test)

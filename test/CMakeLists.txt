@@ -16,6 +16,5 @@ target_link_libraries(ut
     gmock_main
 )
 
-enable_testing()
 include(GoogleTest)
 gtest_discover_tests(ut)
